@@ -96,7 +96,7 @@ The gesture control system currently supports only basics - yet essential - comm
 - _Yoga\_UpwardSalute_: Return to Launch (RTL).
 
 <p align="center">
-    <img src="./.github/class.png" alt="Banner" width="80%" style="border-radius: 5px;">
+    <img src="https://github.com/ArthurFDLR/drone-gesture-control/blob/main/.github/class.png?raw=true" alt="Body classes" width="80%" style="border-radius: 5px;">
 </p>
 
 For security purposes, the system only transmits orders to the flight controller if it is in _GUIDED_ mode. We recommend binding a switch of your radio controller to select this mode for ease of use. 
@@ -106,13 +106,13 @@ For security purposes, the system only transmits orders to the flight controller
 The classification model used in this project is the best performing of the [Pose Classification Kit (PCK)](https://github.com/ArthurFDLR/pose-classification-kit). This model yields great results both in terms of accuracy and inference time. During flights, it is pretty common for the embedded camera only to record a person's upper body. The system thus has to be highly reliable even on partial inputs. The model is tested on two datasets to ensure this property: the original PCK dataset and the same samples with missing keypoints. **The testing accuracies on these datasets respectively reach 98.3% and 95.1%.** As shown in the confusion matrices bellow (left: original dataset - right: partial inputs), even poses that are hardly distinguishable by humans (only looking at the upper-body) are almost perfectly classified by the model. After optimization (see [`.\install.py`](https://github.com/ArthurFDLR/drone-gesture-control/blob/main/install.py)), **the whole processing pipeline - from image capture to drone control - consistently run at speed from 9.5Hz to 13Hz.**
 
 <p align="center">
-    <img src="./.github/cms.png" alt="Banner" width="100%" style="border-radius: 5px;">
+    <img src="https://github.com/ArthurFDLR/drone-gesture-control/blob/main/.github/cms.PNG?raw=true" alt="Confusion matrices" width="100%" style="border-radius: 5px;">
 </p>
 
 ## Additional ressources
 
-- [**Vision-Based Gesture-Controlled Drone:A Comprehensive Python Package to DeployEmbedded Pose Recognition Systems, Arthur Findelair, August 11 2021**](.\.github\Project_Report.pdf)
-- [**Presentation slides of the project**](.\.github\Project_Slides_Presentation.pdf)
+- [**Vision-Based Gesture-Controlled Drone:A Comprehensive Python Package to DeployEmbedded Pose Recognition Systems, Arthur Findelair, August 11 2021**](https://github.com/ArthurFDLR/drone-gesture-control/raw/main/.github/Project_Slides_Presentation.pdf)
+- [**Presentation slides of the project**](https://github.com/ArthurFDLR/drone-gesture-control/raw/main/.github/Project_Slides_Presentation.pdf)
 
 <!-- LICENSE -->
 ## License
