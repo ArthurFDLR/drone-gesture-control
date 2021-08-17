@@ -1,4 +1,4 @@
-<h1 align = "center"> Gesture Controlled Drone </h1>
+<h1 align = "center"> Vision-Based Gesture-Controlled Drone </h1>
 
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
