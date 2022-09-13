@@ -1,4 +1,4 @@
-<h1 align = "center"> Gesture Controlled Drone </h1>
+<h1 align = "center"> Vision-Based Gesture-Controlled Drone </h1>
 
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
@@ -7,7 +7,7 @@
     <img src="https://github.com/ArthurFDLR/drone-gesture-control/blob/main/.github/Github_Banner.jpg?raw=true" alt="Banner" width="100%" style="border-radius: 5px;">
 </p>
 
-This project leverages the Jetson Nano's computational capabilities to augment a drone with computer vision capabilities and allow gesture control. The deep learning model deployed here is part of a larger project, a [**Pose Classification Kit**](https://github.com/ArthurFDLR/pose-classification-kit), focusing on pose estimation/classification applications toward new human-machine interfaces.
+This project leverages the Jetson Nano's computational power to augment a drone with computer vision capabilities and allow gesture control. The deep learning model deployed here is part of a larger project, a [**Pose Classification Kit**](https://github.com/ArthurFDLR/pose-classification-kit), focusing on pose estimation/classification applications toward new human-machine interfaces.
 
 - [Demonstration & Processing pipeline description](#demonstration--processing-pipeline-description)
 - [Getting Started](#getting-started)
