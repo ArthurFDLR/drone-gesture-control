@@ -17,7 +17,8 @@ This project leverages the Jetson Nano's computational capabilities to augment a
   - [Step 4 - Launch the system](#step-4---launch-the-system)
 - [Usage](#usage)
 - [System performance](#system-performance)
-- [Additional ressources](#additional-ressources)
+- [Additional resources](#additional-resources)
+- [Citation](#citation)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
 
@@ -109,10 +110,24 @@ The classification model used in this project is the best performing of the [Pos
     <img src="https://github.com/ArthurFDLR/drone-gesture-control/blob/main/.github/cms.PNG?raw=true" alt="Confusion matrices" width="100%" style="border-radius: 5px;">
 </p>
 
-## Additional ressources
+## Additional resources
 
 - [**Vision-Based Gesture-Controlled Drone:A Comprehensive Python Package to DeployEmbedded Pose Recognition Systems, Arthur Findelair, August 11 2021**](https://github.com/ArthurFDLR/drone-gesture-control/raw/main/.github/Project_Slides_Presentation.pdf)
 - [**Presentation slides of the project**](https://github.com/ArthurFDLR/drone-gesture-control/raw/main/.github/Project_Slides_Presentation.pdf)
+
+
+## Citation
+
+```
+@inproceedings{9813802,
+    author    = {Findelair, Arthur and Yu, Xinrui and Saniie, Jafar},
+    booktitle = {2022 IEEE International Conference on Electro Information Technology (eIT)},
+    title     = {Design Flow and Implementation of a Vision-Based Gesture-Controlled Drone},
+    year      = {2022},
+    pages     = {320-324},
+    doi       = {10.1109/eIT53891.2022.9813802}
+}
+```
 
 <!-- LICENSE -->
 ## License
